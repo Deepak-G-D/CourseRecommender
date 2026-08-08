@@ -14,7 +14,7 @@ The system combines a **deterministic recommendation engine** for reliable cours
 
 ### 1. Clone
 
-git clone https://github.com/YOUR_USERNAME/course-recommendation-agent.git
+git clone https://github.com/Deepak-G-D/CourseRecommender.git
 
 cd course-recommendation-agent
 
