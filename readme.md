@@ -56,6 +56,11 @@ export MISTRAL_API_KEY="your-api-key"
 ```text
 streamlit run streamlit_app.py
 ```
+### 7. Running Tests
+```text
+python -m pytest
+```
+
 ## Overview
 
 A student provides:
