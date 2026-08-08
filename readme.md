@@ -488,18 +488,18 @@ pip install -r requirements.txt
 
 ## 4. Configure the API key
 
-Set your OpenAI API key as an environment variable.
+Set your MistralAI API key as an environment variable.
 
 ### Windows PowerShell
 
 ```powershell
-$env:OPENAI_API_KEY="your-api-key"
+$env:MISTRAL_API_KEY="your-api-key"
 ```
 
 ### macOS/Linux
 
 ```bash
-export OPENAI_API_KEY="your-api-key"
+export MISTRAL_API_KEY="your-api-key"
 ```
 
 Do not commit your API key to GitHub.
