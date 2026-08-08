@@ -522,7 +522,7 @@ AI Engineer
 Current Skills:
 Python, Statistics, Machine Learning
 ```
-![Input](images\input.png)
+![Input](images/input.png)
 
 ### Expected Learning Path
 
@@ -534,7 +534,7 @@ The recommendation engine should recognize that Python, Statistics, and Machine 
 
 The LLM then explains why Deep Learning is the next step.
 
-![Input](images\output.png)
+![Input](images/output.png)
 ---
 
 # Another Example
