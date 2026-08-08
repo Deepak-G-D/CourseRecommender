@@ -12,6 +12,7 @@ The system combines a **deterministic recommendation engine** for reliable cours
 - Python 3.10+
 - Mistral API key
 
+### Installation
 ### 1. Clone
 ```text
 git clone https://github.com/Deepak-G-D/CourseRecommender.git
@@ -511,7 +512,6 @@ Streamlit will provide a local URL where the application can be opened in a brow
 # Example Test Case
 
 ### Input
-
 ```text
 Background:
 Machine Learning graduate
@@ -522,6 +522,7 @@ AI Engineer
 Current Skills:
 Python, Statistics, Machine Learning
 ```
+![Input](images\input.png)
 
 ### Expected Learning Path
 
@@ -533,6 +534,7 @@ The recommendation engine should recognize that Python, Statistics, and Machine 
 
 The LLM then explains why Deep Learning is the next step.
 
+![Input](images\output.png)
 ---
 
 # Another Example
