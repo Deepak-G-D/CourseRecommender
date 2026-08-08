@@ -1,42 +1,52 @@
 [
     {
-        "id":"python",
-        "title":"Python Programming",
-        "skills":["python"],
-        "difficulty":"Beginner",
-        "prerequisites":[]
+        "id": "python",
+        "title": "Python Programming",
+        "skills": [
+            "python"
+        ],
+        "difficulty": "Beginner",
+        "prerequisites": []
     },
     {
-        "id":"sql",
-        "title":"SQL",
-        "skills":["sql"],
-        "difficulty":"Beginner",
-        "prerequisites":[]
+        "id": "statistics",
+        "title": "Statistics",
+        "skills": [
+            "statistics"
+        ],
+        "difficulty": "Intermediate",
+        "prerequisites": []
     },
     {
-        "id":"statistics",
-        "title":"Statistics",
-        "skills":["statistics"],
-        "difficulty":"Intermediate",
-        "prerequisites":[]
+        "id": "sql",
+        "title": "SQL",
+        "skills": [
+            "sql"
+        ],
+        "difficulty": "Beginner",
+        "prerequisites": []
     },
     {
-        "id":"ml",
-        "title":"Machine Learning",
-        "skills":["machine learning"],
-        "difficulty":"Advanced",
-        "prerequisites":[
+        "id": "machine_learning",
+        "title": "Machine Learning",
+        "skills": [
+            "machine learning"
+        ],
+        "difficulty": "Advanced",
+        "prerequisites": [
             "python",
             "statistics"
         ]
     },
     {
-        "id":"dl",
-        "title":"Deep Learning",
-        "skills":["deep learning"],
-        "difficulty":"Advanced",
-        "prerequisites":[
-            "machine learning"
+        "id": "deep_learning",
+        "title": "Deep Learning",
+        "skills": [
+            "deep learning"
+        ],
+        "difficulty": "Advanced",
+        "prerequisites": [
+            "machine_learning"
         ]
     }
 ]

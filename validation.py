@@ -1,4 +1,3 @@
-#validates LLM explanation against the generated roadmap
 def validate_explanation(explanation, roadmap):
 
     expected_ids = [
@@ -6,15 +5,21 @@ def validate_explanation(explanation, roadmap):
         for course in roadmap
     ]
 
+    recommendations = explanation.get(
+        "recommendations",
+        []
+    )
+
     returned_ids = [
-        item["course_id"]
-        for item in explanation["recommendations"]
+        item.get("course_id")
+        for item in recommendations
     ]
 
     if expected_ids != returned_ids:
 
         raise ValueError(
-            "LLM explanation does not match the generated roadmap."
+            "LLM explanation does not match "
+            "the generated learning path."
         )
 
     return True
