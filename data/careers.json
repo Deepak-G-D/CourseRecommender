@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ai_engineer",
+    "title": "AI Engineer",
+    "description": "Builds and deploys artificial intelligence and machine learning systems.",
+    "skills": [
+      "python",
+      "statistics",
+      "machine learning",
+      "deep learning"
+    ]
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "description": "Uses statistics, programming, data analysis, and machine learning to extract insights from data.",
+    "skills": [
+      "python",
+      "sql",
+      "statistics",
+      "machine learning"
+    ]
+  },
+  {
+    "id": "backend_developer",
+    "title": "Backend Developer",
+    "description": "Builds server-side applications, APIs, databases, and backend services.",
+    "skills": [
+      "python",
+      "sql"
+    ]
+  }
+]
