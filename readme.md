@@ -13,43 +13,48 @@ The system combines a **deterministic recommendation engine** for reliable cours
 - Mistral API key
 
 ### 1. Clone
-
+```text
 git clone https://github.com/Deepak-G-D/CourseRecommender.git
+```
 
+```text
 cd course-recommendation-agent
+```
 
 ### 2. Create virtual environment
 
+```text
 python -m venv venv
-
+```
 ### 3. Activate
 
 Windows:
 
+```text
 venv\Scripts\activate
-
+```
 macOS/Linux:
-
+```text
 source venv/bin/activate
-
+```
 ### 4. Install dependencies
-
+```text
 pip install -r requirements.txt
-
+```
 ### 5. Configure API key
 
 Windows PowerShell:
-
+```text
 $env:MISTRAL_API_KEY="your-api-key"
-
+```
 macOS/Linux:
-
+```text
 export MISTRAL_API_KEY="your-api-key"
-
+```
 ### 6. Run
-
+```text
 streamlit run streamlit_app.py
-
+```
 ## Overview
 
 A student provides:
